@@ -1,1 +1,281 @@
 @charset "utf-8";
+.wrapper {
+  padding: 32px 0;
+  width: 100%;
+  background-color: #f2f6f7
+}
+
+.inner {
+  width: 640px;
+  margin:0 auto;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 48px 64px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .18);
+  margin-bottom:32px;
+}
+
+.form-title {
+  text-align:center;
+  font-size: 24px;
+  color:#545658;
+  margin-bottom: 24px;
+}
+
+.columns {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.button {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 13px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  display:inline-block;
+  box-sizing: border-box;
+  cursor:pointer;
+  width:100%;
+  text-align: center;
+}
+
+.left-column {
+  width:50%;
+}
+
+.facebook {
+  background-color: #3b5999;
+  color: #fff;
+  border-color:#3b5999;
+}
+
+.facebook:hover {
+  background-color: #344e87;
+  border-color: transparent;
+}
+
+.right-column {
+  width:50%;
+  margin-left:8px;
+}
+
+.google {
+  background-color: #fff;
+  color:#dd4b39;
+}
+
+.google:hover {
+  background-color: #f7f7f7;
+}
+
+.column-text {
+  text-align: center;
+  font-size: 12px;
+  color: #949697;;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.divider:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 1px;
+  width: 100%;
+  background-color: #ececec;
+}
+
+.divider-text {
+  color: #949697;
+  font-size: 12px;
+  display:inline-block;
+  position: relative;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.name {
+  display: flex;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.is-herfwidth {
+  width: 50%;
+}
+
+.label-text {
+  font-size: 12px;
+  color: #545658;
+  margin-bottom: 5px;
+}
+
+.kome {
+  color: #dd4b39;
+}
+
+.input-area {
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  height:36px;
+  padding: 5px;
+  color: #545658;
+  font-size: 13px;
+  line-height: 2;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  resize: none;
+  -webkit-appearance: none;
+}
+
+.input-area:focus {
+  background-color: #fff;
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
+}
+
+.gender-content {
+  color: #545658;
+  font-size: 16px;
+  position:relative;
+  padding: 3px 3px 3px 20px;
+}
+
+.gender::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 14px;
+  width: 14px;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+}
+
+.hide {
+  display:none;
+}
+
+.gender-input:checked+span::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  height: 8px;
+  width: 8px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #01bfbd;
+}
+
+.select-area {
+  position: relative;
+}
+
+.select-area::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 45%;
+  transform: rotate(45deg);
+  height: 5px;
+  width: 5px;
+  border-right: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.course-text {
+  position:relative;
+  padding-left: 25px;
+}
+
+.course-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 15px;
+  width: 15px;
+  margin-top: -8px;
+  border: 1px solid #d9d9d9;
+}
+
+.course-content {
+  margin-bottom: 10px;
+  color: #545658;
+  font-size: 16px;
+}
+
+.course-checkbox:checked + .course-text::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: rotate(45deg);
+  height: 16px;
+  width: 8px;
+  margin-top: -12px;
+  border-right: 3px solid #01bfbd;
+  border-bottom: 3px solid #01bfbd;
+}
+
+.remarks {
+  height: 100px;
+}
+
+.submit-button {
+  padding: 13px;
+  background-color: #01bfbd;
+  color: #fff;
+}
+
+.submit-button:hover {
+  background-color: #01a6a4;
+}
+
+.right-name {
+  margin-left: 16px;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.link {
+  color: #01a6a4;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #01bfbd;
+}
+
+.foot-part {
+  text-align: center;
+}
+
+.foot-part-row {
+  margin-bottom: 8px;
+}
+
+.foot-part-link:hover {
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
+}
