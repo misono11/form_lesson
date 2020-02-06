@@ -243,6 +243,7 @@
   padding: 13px;
   background-color: #01bfbd;
   color: #fff;
+  transition: .3s;
 }
 
 .submit-button:hover {
